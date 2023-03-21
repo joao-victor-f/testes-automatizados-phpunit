@@ -11,7 +11,7 @@ $exportador = new ExportadorDePessoaEmXml($pessoa);
 $xml = $exportador->exportaEmXml();
 
 //Assert
-$conteudoEsperado = '<pessoa><nome>Víctor</nome><idade>17</idade></pessoa>'; #TESTE OK
+$conteudoEsperado = '<pessoa><nome>Víctor</nome><idade>17</idade></pessoa>'; #TESTE FALHOU
 
 if ($conteudoEsperado === $xml) {
     echo 'TESTE OK' . PHP_EOL;
