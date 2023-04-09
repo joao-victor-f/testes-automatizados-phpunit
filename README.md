@@ -33,3 +33,16 @@ Na terceira aula nos foi apresentado o conceito de TDD (Test Driven Development,
 Segue diagrama.
 ![image](https://user-images.githubusercontent.com/108190179/230798886-c84373a4-d8e1-4248-9cf2-15bcc67a9a4f.png)
 
+<br>
+
+## Aula 4
+Na quarta aula vimos sobre a pirâmide de testes, cujo principal objetivo é classificar os testes com base em fatores como complexidade e velocidade.
+
+![image](https://user-images.githubusercontent.com/108190179/230799928-dabd34b9-9ac0-40ee-ae01-49e637733d7a.png)
+
+- Na base da pirâmide temos os testes de unidade, que são os mais rápidos, mais baratos em termos de complexidade computacional e, teoricamente, os de maior número em um sistema. Um teste unitário é responsável por testar a menor unidade de um sistema (definição é relativa, visto que o tamanho da 'unidade' depende do quão bem estruturado está o seu sistema).
+
+- Sucedendo os testes de unidade, temos os testes de integração: responsáveis por testar funcionalidades que necessitam da comunicação entre os componentes do sistema.
+
+- Por fim, temos os testes E2E (Ponta A Ponta), que são testes que simulam o uso final do sistema do ponto de vista de um usuário, ou seja, basicamente são testes de interface automatizados. E por serem testes feitos para simular a experiência final do usuário, obviamente são realizados em um ambiente controlado e restrito a base de dados real. E também são os testes mais caros e mais lentos.
+
