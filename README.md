@@ -48,3 +48,6 @@ Na quarta aula vimos sobre a pirâmide de testes, cujo principal objetivo é cla
 
 ## Aula 5
 Na quinta aula nos foi apresentado o básico sobre dublês de teste, que são usados quando há a necessidade de testar métodos ou classes que tenham dependências externas, sem se preocupar com regras de negócio, por exemplo. Também foram citados os diferentes tipos de dublês de teste, tais como dummies, mocks, stubs, spies e fakes, mas sem se aprofundar em nenhum deles.
+
+## Aula 6
+Na sexta aula vimos o básico de PHPUnit e a implementação de algumas classes de teste.
