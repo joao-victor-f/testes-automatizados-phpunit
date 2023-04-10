@@ -9,21 +9,9 @@ class ExportadorDePessoaEmXmlTest extends TestCase
     public function testExportarPessoaEmXmlDeveFuncionar()
     {
         //Arrange
-        $pessoa = new class extends Pessoa {
-            public function __construct()
-            {
-            }
-
-            public function idade(): int
-            {
-                return 17;
-            }
-
-            public function nome(): string
-            {
-                return 'Víctor';
-            }
-        };
+        $pessoa = $this->createStub(Pessoa::class);
+        $pessoa->method('nome')->willReturn('Víctor');
+        $pessoa->method('idade')->willReturn(17);
 
         $exportador = new ExportadorDePessoaEmXml($pessoa);
 
