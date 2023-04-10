@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"ExportadorDePessoaEmXmlTest::testExportarPessoaEmXmlDeveFuncionar":0.007}}
+{"version":1,"defects":{"SegurancaBaladaTest::testSegurancaNaoDeveDeixarMenorDeIdadeEntrar":7,"SegurancaBaladaTest::testSegurancaDeveDeixarPessoaMaiorDeIdadeEntrar":7},"times":{"ExportadorDePessoaEmXmlTest::testExportarPessoaEmXmlDeveFuncionar":0.007,"SegurancaBaladaTest::testSegurancaNaoDeveDeixarMenorDeIdadeEntrar":0.008,"SegurancaBaladaTest::testSegurancaDeveDeixarPessoaMaiorDeIdadeEntrar":0}}
