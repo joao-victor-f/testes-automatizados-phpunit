@@ -46,3 +46,5 @@ Na quarta aula vimos sobre a pirâmide de testes, cujo principal objetivo é cla
 
 - Por fim, temos os testes E2E (Ponta A Ponta), que são testes que simulam o uso final do sistema do ponto de vista de um usuário, ou seja, basicamente são testes de interface automatizados. E por serem testes feitos para simular a experiência final do usuário, obviamente são realizados em um ambiente controlado e restrito a base de dados real. E também são os testes mais caros e mais lentos.
 
+## Aula 5
+Na quinta aula nos foi apresentado o básico sobre dublês de teste, que são usados quando há a necessidade de testar métodos ou classes que tenham dependências externas, sem se preocupar com regras de negócio, por exemplo. Também foram citados os diferentes tipos de dublês de teste, tais como dummies, mocks, stubs, spies e fakes, mas sem se aprofundar em nenhum deles.
