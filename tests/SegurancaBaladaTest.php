@@ -1,8 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-require_once './src/Pessoa.php';
-require_once './src/SegurancaBalada.php';
+require_once __DIR__ . '/../src/Pessoa.php';
+require_once __DIR__ . '/../src/SegurancaBalada.php';
 
 
 class SegurancaBaladaTest extends TestCase

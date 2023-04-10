@@ -1,8 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-require_once 'Pessoa.php';
-require_once 'ExportadorDePessoaEmXml.php';
+require_once __DIR__ . '/../src/Pessoa.php';
+require_once __DIR__ . '/../src/ExportadorDePessoaEmXml.php';
 
 class ExportadorDePessoaEmXmlTest extends TestCase
 {
